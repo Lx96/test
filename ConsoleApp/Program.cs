@@ -13,8 +13,8 @@ namespace ConsoleApp
             B1 b = new B1();
             Console.Write(b.Sum(30));
             Console.ReadKey();
-            //B b = new B();
-            //b.PF();
+            B b = new B();
+            b.PF();
             // B b = new B();
             // b.f(new A() {void getval(int n){ print(n * n); }})//匿名类创建的对象作为参数，将该对象的引用船队给方法f的参数a。
             // b.f(new A1() { void getval(int n){Console.WriteLine() } })
